@@ -2,20 +2,45 @@
 
 Welcome to my repository for learning Machine Learning models using supervised learning techniques! In this repository, I have implemented several supervised learning algorithms and provided example code, datasets, and visualizations for each. I also add some pictorial pictures for the reminding the concept of that algorithm.
 
+🎯 Problem Statement:
+In these projects, I explored various machine learning algorithms to tackle different challenges. One of the key problems I focused on was predicting the likelihood of a job candidate getting a job offer based on their experience, rank, nationality, and other factors. Additionally, I worked on predicting the package a student might receive based on their CGPA.
+
+- **Datasets:**
+To train and evaluate my models, I used two datasets:
+
+1️⃣ Job Candidate Dataset:
+
+Features: Experience, Rank, Nationality
+Target Variable: Go (whether the candidate received a job offer or not)
+Example data points:
+
+|  Age | Experience | Rank | Nationality |  Go  |
+|-----|------------|------|-------------|------|
+|  36 |     10     |  9   |     UK      |  NO  |
+|  42 |     12     |  4   |     USA     |  NO  |
+|  23 |     4      |  6   |      N      |  NO  |
+|  52 |     4      |  4   |     USA     |  NO  |
+|  43 |     21     |  8   |     USA     | YES  |
+
+2️⃣ CGPA and Package Dataset:
+
+Features: CGPA
+Target Variable: Package
+Example data points:
+
+| cgpa | package |
+|------|---------|
+| 6.89 |  3.26   |
+| 5.12 |  1.98   |
+| 7.82 |  3.25   |
+| 7.42 |  3.67   |
+| 6.94 |  3.57   |
+
 ## Algorithms Implemented
 
 - **Linear Regression:** Predicting numerical values based on linear relationships.
 - **Multiple Linear Regression:** Extending linear regression to handle multiple input features.
 - **Decision Trees:** Building decision trees for classification and regression tasks.
-
-## Contents of Each Model's Directory
-
-Each model directory includes the following files and resources:
-
-- **Jupyter Notebook:** Explore the step-by-step implementation of the algorithm with explanations and code examples.
-- **Dataset:** Sample datasets used for training and evaluation.
-
-## Model Descriptions and Benefits
 
 ### Linear Regression
 
@@ -44,5 +69,4 @@ git clone https://github.com/your-username/your-repository.git
 Feel free to explore, learn, and experiment with the code in this repository. Happy machine learning!
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ - see the [LICENSE](LICENSE) file for details.
